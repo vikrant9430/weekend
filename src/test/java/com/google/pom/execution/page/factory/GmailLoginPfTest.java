@@ -19,6 +19,7 @@ public class GmailLoginPfTest {
 	  
 	  GmailPage operation = new GmailPage(driver);
 	  operation.signInOperation("shruti.garg0302", "1234567890");
+	  System.out.println("All done");
   }
   @BeforeMethod
   public void openBrowser()
